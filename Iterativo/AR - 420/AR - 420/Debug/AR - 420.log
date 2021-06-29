@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Pedro\Documents\FAL\Iterativo\AR - 420\AR - 420\Source.cpp(46,11): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+  AR - 420.vcxproj -> C:\Users\Pedro\Documents\FAL\Iterativo\AR - 420\Debug\AR - 420.exe
