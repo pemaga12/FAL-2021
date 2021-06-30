@@ -53,3 +53,9 @@ T(n) = T(n / b) + c * n^k
  - O(n^(log_b a))	si a > b^k 
 
 */
+
+/*
+
+Problema de las ovejas (N 412)
+
+*/
