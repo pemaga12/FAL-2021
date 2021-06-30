@@ -24,6 +24,8 @@ using namespace std;
 //		llega a b se incrementa b, por lo que a no crece indefinidamente. En el peor de los casos se dan n + n vueltas, o
 // 		2 * n vueltas.
 
+//		Cota:
+//		2n - (a + b); El 2n es debido a que es posible que si a y b esten cerca del final se haga negativo, cosa que no puede ser
 
 int problema(int n, int p, vector<int> v) {	/*return ret*/
 	int i = 0;
