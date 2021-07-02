@@ -3,48 +3,18 @@
 
 using namespace std;
 
-/*
-int secuenciaMasLarga(vector<int> v, int n, int m) {
-	int a= 0, i = 0;
-	int segmentoActual = 0;
-	int sigPosicion = i + 1;	//Por si acaso el primer elemento es 0
-	int ret = 0;
-	int cerosActuales = 0;
-	
-	while (i < n) {
-		if (v[i] == 0) {
-			
-			cerosActuales++;
-			if (cerosActuales == 1) {
-				sigPosicion = i + 1;
-			}
-			if (cerosActuales > m) {	//En caso de que se haya llegado al maximo de 0
-				a = sigPosicion;
-				cerosActuales--;
-			}
-			 
-		}
-		
-		if (i - a + 1 > ret) ret = i - a + 1;
-		++i;
-		
-	}
-	return ret;
-}
-*/
-
 
 int secuenciaMasLarga(vector<int> v, int n, int m) {
-	int a = 0, i = 0;
+	int a = 0, b = 0;
 	int segmentoActual = 0;
-	int sigPosicion = i + 1;				//Por si acaso el primer elemento es 0
+	int sigPosicion = b + 1;				//Por si acaso el primer elemento es 0
 	int ret = 0;
 	int cerosActuales = 0;
 	bool siguienteCero = false;
 
-	while (i < n) {
+	while (b < n) {
 		//if (i - a + 1 > ret) ret = i - a + 1;
-		if (v[i] == 0) {
+		if (v[b] == 0) {
 			cerosActuales++;
 		}
 
@@ -53,8 +23,8 @@ int secuenciaMasLarga(vector<int> v, int n, int m) {
 			++a;
 		}
 		
-		if (i - a + 1 > ret) ret = i - a + 1; 
-		++i;
+		if (b - a + 1 > ret) ret = b - a + 1; 
+		++b;
 	}
 	return ret;
 }
