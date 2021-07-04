@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Pedro\Documents\FAL-2021\Examenes resueltos\2015 febrero\Problema 2\Problema 2\Source.cpp(15,11): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+  Problema 2.vcxproj -> C:\Users\Pedro\Documents\FAL-2021\Examenes resueltos\2015 febrero\Problema 2\Debug\Problema 2.exe
